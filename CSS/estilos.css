@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 6513px;
+    background: url('../IMG/bg1.png') no-repeat;
+    background-position: top center;
+    background-size: contain;
+    
+}
