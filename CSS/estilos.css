@@ -12,7 +12,7 @@ body {
   background-size: cover; */
 }
 
-@media only screen and (max-width : 800px){
+@media only screen and (max-width : 980px){
   header{
     position: relative;
     /* width: 100vw; */
