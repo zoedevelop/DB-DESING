@@ -33,14 +33,10 @@ body {
   }
 
   .navbar a {
-    width: 84px;
-    height: 30px;
-    /* background: rgba(0, 255, 34, 0.753); */
     margin-left: 10%
   }
   .navbar a img {
-    width: 84px;
-    height: 30px;
+    width: 143px;
   }
   .menu_desk{
     display: none;
@@ -126,6 +122,9 @@ body {
     background: transparent;
     font-family: "montserrat";
     font-size: 18px;
+  }
+  .slider__register button a{
+    text-decoration: none;
   }
   .iniciate{
     color: white;
