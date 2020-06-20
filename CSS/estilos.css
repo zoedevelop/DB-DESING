@@ -4,179 +4,321 @@
 }
 
 body {
-  width: 100vw;
+  /* width: 100vw; */
   /* height: 6513px; */
   font-family: "Montserrat", sans-serif;
   /* background: url("../IMG/bg1.png") no-repeat; */
-  background-position: top center;
-  background-size: cover;
+  /* background-position: top center;
+  background-size: cover; */
 }
+
+@media only screen and (max-width : 800px){
+  header{
+    position: relative;
+    /* width: 100vw; */
+    /* height: 595px; */
+    background: url(https://www.dbdesigner.net/wp-content/uploads/2019/07/02.jpg)
+    no-repeat;
+    background-position: top center;
+    background-size: cover;
+  }
+  .navbar{
+    position: relative;
+    width: 100%;
+    height: 11vh;
+    background: #185399;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar a {
+    width: 84px;
+    height: 30px;
+    /* background: rgba(0, 255, 34, 0.753); */
+    margin-left: 10%
+  }
+  .navbar a img {
+    width: 84px;
+    height: 30px;
+  }
+  .menu_desk{
+    display: none;
+  }
+  .menu_movil{
+    width: 30px;
+    height: 30px;
+    margin-right: 4%;
+    background: rgba(0, 225, 255, 0.568);
+  }
+  .menu_movil a{
+    line-height: 25px;
+    
+  }
+  .slider{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    /* background: rgba(0, 225, 255, 0.486); */
+    display: flex;
+    flex-direction: column;
+  }
+  .slider__contenedor__copy{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    padding: 12% 10% 5% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .slider__title{
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+  .slider__slogan{
+    width: 100%;
+    margin: 0;
+    padding: 0px 0 5px 0px ;
+    text-transform: capitalize;
+    color: white;
+    font-size: 35px;
+    word-wrap: normal;
+    font-weight: 300;
+  }
+  .slider__contenedor__img{
+    width: 100%;
+    /* height: 40px; */
+    /* background: rgba(0, 0, 0, 0.568); */
+    display: flex;
+    justify-content: center;
+  }
+  .slider__contenedor__img img{
+    width: 95%;
+    height: auto;
+    /* background: rgba(246, 0, 0, 0.404); */
+  }
+  .slider__register{
+    position: relative;
+    width: 100%;
+    padding: 2% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .slider__register a{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "montserrat";
+    text-decoration: underline;
+  }
+  .slider__register button{
+    padding: 12px 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: transparent;
+    font-family: "montserrat";
+    font-size: 18px;
+  }
+  .iniciate{
+    color: white;
+    font-family: "montserrat";
+    font-weight: bold;
+    padding: 12px 10%;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+  .slider__contenedor__imagen{
+    position: relative;
+    padding-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .slider__contenedor__imagen img{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+/* 
+ 
+@media screen and (min-width: 981px){
+  header {
+    position: relative;
+    width: 100vw;
+    background: url("https://www.dbdesigner.net/wp-content/uploads/2019/07/02.jpg")
+    no-repeat;
+    background-size: cover;
+  }
+  
+  .navbar {
+    position: relative;
+    width: 100vw;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+
+  }
+  
+  nav > img {
+    width: 170px;
+    height: 55px;
+    margin-left: 30px;
+  }
+  nav > ul {
+    margin-right: 30px;
+    line-height: 80px;
+  }
+  
+  nav > ul > li {
+    display: inline;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  nav > ul > li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .btn-free {
+    padding: 15px;
+    background: none;
+    border-radius: 5px;
+    color: black;
+    background: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all  ease-in;
+  }
+  .btn-free:hover{
+  
+      background: #f66b57;
+  }
+  .slider {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .slider__contenedor__copy {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 50%;
+    padding: 1% 3%;
+  }
+  .slider__title {
+    text-transform: uppercase;
+    position: relative;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 25px;
+  }
+  .slider__slogan {
+    position: relative;
+    font-size: 40px;
+    font-weight: 300;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+  }
+  .slider__contenedor__img {
+    width: 70%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+  .slider__contenedor__img > img {
+    position: relative;
+    width: 20%;
+    height: 60px;
+  }
+  .slider__register {
+    width: 75%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    margin-bottom: 50px;
+  }
+  .slider__register > a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: underline;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .slider__register > a:link {
+    text-decoration: underline;
+    margin-left: 10px;
+  }
+  
+  .btn {
+    width: 50%;
+    padding: 20px 25px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  .btn > a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+  }
+  .iniciate {
+    width: 80%;
+    color: white;
+    margin-left: 10px;
+    font-size: 19px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+  }
+  .slider__contenedor__imagen {
+    position: relative;
+    width: 50%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .slider__contenedor__imagen > img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+ */
 
 /* -------------------------------------------------------------------------- */
 /*                        inicio de estilos del header                        */
 /* -------------------------------------------------------------------------- */
 
-header {
-  position: relative;
-  width: 100vw;
-  background: url("https://www.dbdesigner.net/wp-content/uploads/2019/07/02.jpg")
-    no-repeat;
-    background-size: cover;
-}
 
-.navbar {
-  position: relative;
-  width: 100vw;
-  height: 110px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 50px;
-  /* background: rgba(38, 255, 0, 0.513); */
-}
-
-nav > img {
-  width: 170px;
-  height: 55px;
-  margin-left: 30px;
-}
-nav > ul {
-  margin-right: 30px;
-  line-height: 80px;
-}
-
-nav > ul > li {
-  display: inline;
-  margin-right: 10px;
-  font-size: 14px;
-  font-weight: 700;
-}
-
-nav > ul > li a {
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.btn-free {
-  padding: 15px;
-  background: none;
-  /* border: 2px solid white; */
-  border-radius: 5px;
-  color: black;
-  background: #fff;
-  font-size: 14px;
-  font-weight: bold;
-  transition: all  ease-in;
-}
-.btn-free:hover{
-
-    background: #f66b57;
-}
-.slider {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-}
-.slider__contenedor__copy {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  width: 50%;
-  padding: 50px 110px;
-}
-.slider__title {
-  text-transform: uppercase;
-  position: relative;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  margin-bottom: 25px;
-}
-.slider__slogan {
-  position: relative;
-  font-size: 40px;
-  font-weight: 300;
-  color: white;
-  text-transform: capitalize;
-  margin-bottom: 25px;
-}
-.slider__contenedor__img {
-  width: 70%;
-  height: 60px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  /* border: 2px solid #000; */
-  margin-bottom: 35px;
-}
-.slider__contenedor__img > img {
-  position: relative;
-  width: 20%;
-  height: 60px;
-}
-.slider__register {
-  width: 75%;
-  height: 60px;
-  /* border: 1px solid black; */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  margin-bottom: 50px;
-}
-.slider__register > a {
-  text-transform: uppercase;
-  color: white;
-  text-decoration: underline;
-  margin-left: 10px;
-  font-size: 18px;
-  font-weight: bold;
-}
-.slider__register > a:link {
-  text-decoration: underline;
-  margin-left: 10px;
-}
-
-.btn {
-  width: 50%;
-  padding: 20px 25px;
-  background: none;
-  border: 2px solid white;
-  border-radius: 5px;
-}
-.btn > a {
-  color: white;
-  text-transform: uppercase;
-  font-size: 14px;
-  letter-spacing: 2px;
-  font-weight: bolder;
-}
-.iniciate {
-  width: 80%;
-  color: white;
-  margin-left: 10px;
-  font-size: 19px;
-  letter-spacing: 2px;
-  margin-bottom: 25px;
-}
-.slider__contenedor__imagen {
-  width: 50%;
-  padding: 40px;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-.slider__contenedor__imagen > img {
-  width: 100%;
-  height: auto;
-}
 
 /* -------------------------------------------------------------------------- */
 /*                        fin de los estilos del header                       */
