@@ -4,19 +4,17 @@
 }
 
 body {
-  /* width: 100vw; */
-  /* height: 6513px; */
   font-family: "Montserrat", sans-serif;
-  /* background: url("../IMG/bg1.png") no-repeat; */
-  /* background-position: top center;
-  background-size: cover; */
 }
 
 @media only screen and (max-width : 980px){
+
+/* -------------------------------------------------------------------------- */
+/*                       inicio estilos header version movil                  */
+/* -------------------------------------------------------------------------- */
+
   header{
     position: relative;
-    /* width: 100vw; */
-    /* height: 595px; */
     background: url(https://www.dbdesigner.net/wp-content/uploads/2019/07/02.jpg)
     no-repeat;
     background-position: top center;
@@ -143,9 +141,115 @@ body {
   }
   .slider__contenedor__imagen img{
     position: relative;
-    width: 100%;
+    width: 93%;
     margin: 0 auto;
   }
+
+/* -------------------------------------------------------------------------- */
+/*                      fin estilos header version movil                      */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                      inicio estilos main version movil                     */
+/* -------------------------------------------------------------------------- */
+
+main{
+  position: relative;
+  width: 100%;
+  /* height: 700px; */
+}
+
+.database_design{
+  position: relative;
+  width: 80%;
+  padding: 20px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.database_design_title{
+  font-size: 36px;
+  text-align: center;
+  font-weight: bolder;
+}
+.database_design_body{
+  margin: 30px 0;
+}
+.database_design_body img{
+  width: 100%;
+}
+.database_design_body p{
+  width: 100%;
+  margin: 20px auto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.database_design_list{
+  margin: 10px 5px 30px 50px;
+}
+.database_design_list li{
+  padding: 0 0 5px 15px;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  list-style-type: circle;
+}
+.database_design_action{
+  padding: 20px 4%!important;;
+  line-height: 50px;
+  font-size: 100%;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: #1482C9;
+  border-radius: 5px;
+  color: white;
+}
+
+.indicadores{
+ position: relative;
+ width: 100%;
+ height: auto;
+ background-image: url('https://blog.dbdesigner.net/wp-content/uploads/2019/07/01.jpg');
+ background-size: cover;
+ background-position: top center;
+ background-repeat: no-repeat;
+ color: white;
+}
+.indicadores_contain{
+  width: 80%;
+  margin: 0px auto;
+  padding: 7% 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.indicadores_box{
+  width: calc(50% - 40px);
+  margin: 20px;
+  text-align: center;
+}
+.indicadores_box img{
+  margin-bottom: 20px;
+}
+.indicadores_box h4{
+  font-size: 48px;
+  font-weight: bolder;
+  padding-bottom: 15px;
+}
+.indicadores_box p{
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                       fin estilos main version movil                       */
+/* -------------------------------------------------------------------------- */
+
 }
 /* 
  
